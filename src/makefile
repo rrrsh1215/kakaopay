@@ -3,11 +3,6 @@ include $(SH_HOME)/cfg/make.mk
 ##################################
 OBJ=client.o \
 ##################################
-#OBJS=	11cert.o		\
-#		12authterm.o	\
-#		13authuser.o	\
-#
-##################################
 SRC=$(OBJ:.o=.c)
 TARGET=$(OBJ:.o=)
 
