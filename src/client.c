@@ -344,7 +344,6 @@ int doPost(sqlite3 *db, shryu_t *psh)
 	if (getLastPayinfoByCard_no(db, pCpi->card_no, last_dttm) < 0) {
 		return -1;
 	}
-printf("shryuA: last_dttm[%s]  psh->now_dttm[%s] psh->timegap[%d]\n", last_dttm,  psh->now_dttm, psh->timegap);
 
 	// 최근 결제내역이 존재한다면
 	if (last_dttm[0] != 0x00) {
