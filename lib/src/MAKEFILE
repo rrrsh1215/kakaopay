@@ -1,0 +1,7 @@
+all:
+	cd castutil;  make clean; make;
+	cd cfgutil;   make clean; make;
+	cd dbutil;    make clean; make;
+	cd seedutil;  make clean; make;
+	cd timeutil;  make clean; make;
+
